@@ -1,7 +1,7 @@
 # Actuar Alumni 
 O projeto consiste em um CRUD para manipulação dos dados de alunos, com o uso de LocalStorage(neste projeto através da biblioteca ngx-webstorage). Além disso, o consumo de API para carga inicial dos dados em formato JSON.
 
-## Index
+## Índice
 - [Instalação](#installation)
 
 
