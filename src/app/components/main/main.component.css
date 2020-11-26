@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#snav {
+  width: 15%;
+  background-color: #2e3a82;
+}
+
+.icon-menu {
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.icon-menu:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s;
+}
+
+.is-mobile .toolbar {
+  position: fixed;
+  z-index: 2;
+}
+
+h1.app-name {
+  margin-left: 10px;
+}
+
+.sidenav-container {
+  flex: 1;
+}
+
+.is-mobile .sidenav-container {
+  flex: 1 0 auto;
+}

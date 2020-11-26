@@ -1,0 +1,22 @@
+.card {
+  margin: 16px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: center !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 32px;
+}
+
+.actions button {
+  margin: 4px;
+}

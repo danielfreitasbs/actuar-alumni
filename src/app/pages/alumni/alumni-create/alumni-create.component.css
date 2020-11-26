@@ -1,0 +1,23 @@
+.card {
+  margin: 16px;
+  text-align: -webkit-center;
+}
+
+.form-horizontal {
+  width: 40%;
+  text-align: center;
+}
+
+.form-horizontal > div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 16px;
+}
+
+.card-title {
+  margin-bottom: 16px;
+}

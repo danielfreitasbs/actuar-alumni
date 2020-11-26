@@ -1,0 +1,33 @@
+<mat-card class='card'>
+  <mat-card-title class="card-title">Alterar Dados do Aluno</mat-card-title>
+  <div>
+    <mat-card-content>
+      <form class="form-horizontal" [formGroup]="form">
+        <div>
+          <label class="text-color pv-5" for="name">Nome</label>
+          <input required class="input-border-color" formControlName="name" id="name" name="name" type="text">
+
+        </div>
+        <div>
+          <label class="text-color pv-5" for="email">Email</label>
+          <input required class="input-border-color" formControlName="email" type="email" id="email" name="email">
+
+        </div>
+        <div>
+          <label class="text-color pv-5" for="birthDate">Data de Nascimento</label>
+          <input required class="input-border-color" type="date" id="birthDate" name="birthDate"
+            formControlName="birthDate">
+        </div>
+        <div>
+          <label class="text-color pv-5" for="gender">Sexo</label>
+          <select required class="input-border-color" type="select" id="gender" name="gender" formControlName="gender">
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+          </select>
+        </div>
+
+        <button class="btn" type="button" (click)="onSubmit();">Salvar Alteração</button>
+      </form>
+    </mat-card-content>
+  </div>
+</mat-card>
